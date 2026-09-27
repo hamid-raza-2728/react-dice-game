@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin:0;  
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.Screen {
+display: grid;
+grid-template-columns: 649px 528px;
+max-width: 1182px;
+position: relative;
+top: 180px;
+left: 129px;
+gap: 5px;
+}
+.Heading{
+display: flex;
+flex-direction: column;
+align-items: center;  
+justify-content: center;
+font-weight: 700;
+line-height: 100%;
+font-size: 50px;
+white-space: nowrap;
+gap: 40px;
+}
+button{
+  height: 44px;
+  width: 220px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+  margin-left: auto;
+  border: none;
+}
+.score-select{
+  width: 1280px;
+  height: 151px;
+  margin:80px 64px;
+display: grid;
+grid-template-columns: 1fr 1fr;  
+}
+.score{
+margin-left: 30px;  
+font-weight: 600;
+font-size: 20px;
+}
+.select-box{
+  display: flex;
+  flex-direction: row;
+}
+.select-box >button{
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.boxes >p{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  padding-left: 330px;
+}
+.select-box >button.selected{
+background-color: black;  
+color: white;
+}
+.dice{
+  width: 250px;
+  height: 449px;
+  margin :auto;
+  margin-top:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn3{
+position: relative;
+left: 10px;
+background-color: white;
+color: black;  
+margin: 10px auto;
+border: 1px solid black;
+}
+.dice > button {
+font-weight: 500;
+margin-left:10px;
+}
+ul{
+line-height: normal;
+font-size: 25px;
+}
+.rule{ 
+margin:40px 55px;
+display: flex;
+flex-direction: column;
+row-gap: 8px;
+white-space: nowrap;
+background-color: beige;
+}
+h2{
+ font-size: 45px; 
+ position: relative;
+ left: 5px;
+}
+.dice-button{
+width: 250px;
+height: 250px;  
+border:none;
+padding: 0;
+background-color: white;
+}
+.dice > p{
+font-size: 25px;  
+}
