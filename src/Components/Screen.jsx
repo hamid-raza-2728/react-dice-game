@@ -28,7 +28,7 @@ function Screen() {
         (clicked==="no")?
       <div className="Screen">
           <div className="Dices">
-          < img src='/image/dices 1.png' alt="Dice" />
+          < img src={`${import.meta.env.BASE_URL}/image/dices 1.png`} alt="Dice" />
           </div>   
        <div className="Heading">   
               <h1>DICE GAME</h1>
@@ -57,7 +57,7 @@ function Screen() {
                 
                 <div className="dice">
                     <button className='dice-button' onClick={() => CalScore()}>
-                        <img src={`/image/dice-${diceValue}.png`} alt="Cubes" height="250px" width="250px" /></button>
+                        <img src={`${import.meta.env.BASE_URL}image/dice-${diceValue}.png`}alt="Cubes" height="250px" width="250px" /></button>
                     <p>Click on Dice to roll</p>
                     <button className='btn3' onClick={() => {
                         setScore(0);
